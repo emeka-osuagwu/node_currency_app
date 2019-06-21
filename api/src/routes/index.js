@@ -1,5 +1,4 @@
 const express = require('express');
-const app = express();
 const CurrencyRouter = express.Router();
 const currencyController = require('../controller/currencyController');
 const routeValidation = require('./middlewares/routeValidationMiddleware');
